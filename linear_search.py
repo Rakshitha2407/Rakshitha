@@ -19,7 +19,7 @@ search_element = float(input('Enter the element to be searched:'))
 
 search_index = sequentially_search(search_element,elements)
 
-if search_element == -1:
+if search_index == -1:
     print(f'The search element {search_element} was not found in the list')
 else:
     print(f'The search element {search_element} was  found at position {search_index} in the list')
